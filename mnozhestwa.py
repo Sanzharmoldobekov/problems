@@ -1,42 +1,25 @@
-#problem_0
-#dates={3,10,11,13,31,21,1,10,3,5,6,6}
-#dates.remove(6)
-#print (dates)
+my_friends = {
+ "Joomart": "+996555246810",
+ "Adinai": "+996555013579",
+ "Ermek": "+996777013579",
+ "Atai": "+996777246810",
+ "Aslan": "+996999246810",
+ }
 
-#problem_1
-#x=set()
-#y=set()
-#a=set()
-#x={'1','2','3'}
-#y={'Rustam'}
-#a={'Altysh'}
-#x.update(y,a)
-#print(x)
-
-#problem2
-#farm_1={'dog','cat','mouse','sheep'}
-#farm_2={'cow','horse','donkey','cat','dog'}
-#farm_1.intersection_update(farm_2)
-#print(farm_1)
-#print(farm_2)
-farm_1={'dog','cat','mouse','sheep'}
-farm_2={'cow','horse','donkey','cat','dog'}
-farm_1.difference(farm_2)
-print(farm_1)
-print(farm_2)
+his_her = {
+ "Lyazat": "+996551123456",
+ "Salavat": "+996552234567",
+ "Daniyar": "+996553345678",
+ "Bolot": "+996554456789",
+ "Alymbek": "+996555501234",
+ "Dastan": "+996556678912",
+ "Maksat": "+996557789012",
+ "Aibek": "+996558890123",
+ }
+our = my_friends.copy()
+our.update(his_her)
+print(our)
 
 
 
-
-
-
-
-#problem3
-#x=set()
-#x={1,2,3,4,5}
-#x.update('king')
-#print(x.pop())
-#print(x)
-
-#problem4
 
